@@ -39,10 +39,15 @@ Both of these were already installed so we are good here.
 
 Secondly, at a high-level outline steps to deliver the requirements 
     1 - Fork the application and create a local copy
+    
     2 - Locate Docker images from the official Docker website
+    
         a - I am setting this up on a Windows laptop but will create a linux based container so a linux distro
+        
         b - The Golang image compatible for linux distro- https://hub.docker.com/_/golang
+        
     3 - I familiarised myself with the application file and run it to observe the behaviour.
+    
     4 - This was followed by jotting down 2 ways I thought I could take to complete the task.
 
 My initial thoughts were to set the environment variable in the Docker file and then overwrite when running the container.
