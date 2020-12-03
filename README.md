@@ -56,7 +56,7 @@ Secondly, at a high-level outline steps to deliver the requirements
 
 My initial thoughts were to set the environment variable in the Docker file and then overwrite when running the container.
 
-Then, I thought about potentially setting environment variable dynamically through an API call and that would involve changing the script, apologies for that, and adding another endpoint to cater for this. And this is the route I went down to, purely to enable the toggling of the response code and message through the API.
+Then, I thought about potentially setting the environment variable dynamically through an API call and that would involve changing the script, apologies for that, and adding another endpoint to cater for this. And this is the route I went down to, purely to enable the toggling of the response code and message through the API.
 
 You may have also noticed that I have changed couple of bits in the script. I altered the variable name from status_from_env to statusFromEnv as my editor was complaining about the underscores. I love my underscores in variable names in Python but after searching online for variable naming conventions it turns out it is frowned upon by Gophers... over dramatic :-)
 
