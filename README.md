@@ -33,11 +33,15 @@ Both Golang and Docker are technologies that I am aware of and completed trainin
 So I started by identifying steps to take to complete the task.
 
 First of all, do I have all the applications required? 
+
     1 - Golang
+    
     2 - Docker
+    
 Both of these were already installed so we are good here. 
 
 Secondly, at a high-level outline steps to deliver the requirements 
+
     1 - Fork the application and create a local copy
     
     2 - Locate Docker images from the official Docker website
